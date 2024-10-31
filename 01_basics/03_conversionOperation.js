@@ -18,6 +18,11 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let string = 33
 let stringNumber = String(string)
-console.log(stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
-console.log(typeof stringNumber);
+// **************** Operations *****************
+
+// let a = 1
+// console.table([++a, a, a++]);
+// console.log(a)
