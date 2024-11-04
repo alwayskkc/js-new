@@ -23,13 +23,31 @@ let myObj = {
     name: "Chaitu",
     age: 25
 }
-console.log(myObj.name)
+// console.log(myObj.name)
 
 const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof myObj);
-console.log(typeof myFunction);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+/*
+ Stack ( Primitive)
+ Heap (Non-Primitive)
+ 
+*/
+let yourName = "Ram Charan"
+let anotherName = yourName
+anotherName = "RC"
+
+console.log(yourName);
+console.log(anotherName);
+
+
+let myObj2 = myObj
+myObj2.name = "Krishna"
+console.log(myObj2.name)
+console.log(myObj.name)
