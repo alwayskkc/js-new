@@ -1,16 +1,28 @@
 Java Script Basics:
-------------------------
-+	Prefer not to use “var” as it is functional scoped, hoisting capability, and declaration issue. Instead use “let” to declare variables
+------------------
++	Prefer not to use “var” as it is functional scoped, hoisting capability, and declaration issue. Instead use “let” to declare 
+    variables
 +	uninitialized variables have “undefined” value
-+	Java Script is dynamically typed language => variable types are automatically detected with the initialization and usage of variables across the code
-+	Symbols in JS are unique and immutable datatype stored in ECMAScipt 6. They are primarily used as keys for object properties and to avoid property name collisions. They are great for hiding implementation details and creating unique identifiers. 
++	Java Script is dynamically typed language => variable types are automatically detected with the initialization and usage of 
+    variables across the code
++	Symbols in JS are unique and immutable datatype stored in ECMAScipt 6. They are primarily used as keys for object properties and to 
+    avoid property name collisions. They are great for hiding implementation details and creating unique identifiers. 
 +	Stack memory is used to make a copy of the variable, so the modification doesn’t have any effect on the original value.
 +	Heap memory is used to make a reference to the value, so that there is a direct effect on the original value.
 +	__proto__ is a property that references prototypes of the objects such as methods in strings.
 +	Object creation is done in two ways: using literals and using singleton (constructor)
-+	Symbol is a unique and immutable primitive data type, mainly used as keys for object properties. Each Symbol is unique, even if they have the same description, which helps prevent property name conflicts in objects. Symbols are often used to create 'hidden' or 'private' properties because they don’t show up in normal loops or object property listings. They also allow us to customize certain behaviors in objects using built-in symbols like SYMBOL.ITERATOR.
++	Symbol is a unique and immutable primitive data type, mainly used as keys for object properties. Each Symbol is unique, even if 
+    they have the same description, which helps prevent property name conflicts in objects. Symbols are often used to create 'hidden' or 'private' properties because they don’t show up in normal loops or object property listings. They also allow us to customize certain behaviors in objects using built-in symbols like SYMBOL.ITERATOR.
 +	Acts like printf -> `` ( String interpolation )
 +	The global object present under the browser is the “Window” object
 +	‘this’ can be used under objects but not directly under functions!
++	JS in Single-threaded
++	There are 3 Contexts in Java Script:
+    o	Global Execution context
+    o	Functional Execution context
+    o	Eval Execution context
++	JS Code runs in 3 phases:
+    o	Memory creation phase
+    o	Execution phase
 +	
  
