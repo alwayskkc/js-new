@@ -24,5 +24,6 @@ Java Script Basics:
 +	JS Code runs in 3 phases:
     o	Memory creation phase
     o	Execution phase
-+	
++	In the switch condition, when break is not assigned to a case, then the cases present under that will be executed without matching the case condition except the default case.
++   
  
